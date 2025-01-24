@@ -1,8 +1,3 @@
-Aplicativo de agendamento, voltado para profissionais de salão de beleza.
-
-Objetivo
-Colocar em prática meus estudos da linguagem java junto com o android framework, e de bônus ajudar uma pessoa muito especial na minha vida.
-
 🔨 Funcionalidades
 A primeira e principal funcinalidade: Marcar um agendamento em uma lista de horários, afim de organizar o dia a dia do profissional
 Funcionalidade 2: Adicionar, remover e alterar agendamentos, clientes, serviços e despesas.
@@ -15,17 +10,6 @@ Funcionalidade 8: Salvar dados em um banco local, no caso, no próprio smatphone
 Funcionalidade 9: Salvar dados em um banco Remoto(cloud heroku) atravéz de uma aplicação Spring Boot.
 Funcionalidade 10: Autenticar Usuário através de uma tela de login(via token para servidor remoto).
 185512784-cd349ac6-a7d0-496f-b4fe-74326933823f.gif
-
----185514465-cf977cda-36c2-4a66-aac7-9bfc215bbbf4.gif
-
----185519607-9a566af3-d5ad-42f3-865c-4cc43140b67e.gif
-
- 185660120-104370b4-7411-4586-a60b-e0ad42076d25.gif
-
----185663171-dd75de6c-d07e-4a18-9d23-2e3a8901202c.gif
-
----185665274-71d89857-ec33-4785-896e-31ba47282aa8.gif
-
 
 📜 Características
 1: Após autenticar o usuário pela primeira vez faze-lo de forma automática sempre que abrir o aplicativo.
