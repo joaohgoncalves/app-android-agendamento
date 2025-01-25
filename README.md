@@ -69,17 +69,32 @@ Beauty Style - Aplicativo de Agendamento e Gestão
 Link para download do APK: https://www.mediafire.com/file/35n000ur213bh7h/beauty_style.apk/file
 
 Pré-requisitos
+
 Android 8.0 (Oreo) ou superior
+
 SDK mínimo 26
+
 ✔️ Técnicas e Tecnologias Utilizadas
+
 Java 8
+
 Android Framework
+
 Estrutura de Projeto MVVM
+
 Clean Architecture
+
 Clean Code
+
 Android Studio (IntelliJ IDEA)
+
 Paradigma de Orientação a Objetos
+
 RxJava3
+
 Room SQLite
+
 Dagger
+
 Retrofit
+
