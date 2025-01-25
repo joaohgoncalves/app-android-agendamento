@@ -1,52 +1,52 @@
+Beauty Style - Aplicativo de Agendamento e Gestão
 🔨 Funcionalidades
-A primeira e principal funcinalidade: Marcar um agendamento em uma lista de horários, afim de organizar o dia a dia do profissional
-Funcionalidade 2: Adicionar, remover e alterar agendamentos, clientes, serviços e despesas.
-Funcionalidade 3: Atalho rápido para acessar os dias da semana atual.
-Funcionalidade 4: Facilidade, objetividade e rapidez no agendamento.
-Funcionalidade 5: Importar contatos do smartphone para o aplicativo.
-Funcionalidade 6: Possibilitar a seleção de mais de um tipo de serviço quando for agendar um horario.
-Funcionalidade 7: Relatório financeiro -> diario, mensal e por período
-Funcionalidade 8: Salvar dados em um banco local, no caso, no próprio smatphone.
-Funcionalidade 9: Salvar dados em um banco Remoto(cloud heroku) atravéz de uma aplicação Spring Boot.
-Funcionalidade 10: Autenticar Usuário através de uma tela de login(via token para servidor remoto).
-185512784-cd349ac6-a7d0-496f-b4fe-74326933823f.gif
-
+ Agendamento de Horários: Marque agendamentos em uma lista de horários para organizar o dia a dia do profissional.
+ Gestão de Agendamentos: Adicione, remova e altere agendamentos, clientes, serviços e despesas.
+ Atalho Rápido: Acesso rápido aos dias da semana atual.
+ Facilidade e Objetividade: Agendamentos rápidos e diretos.
+ Importação de Contatos: Importe contatos do smartphone para o aplicativo.
+ Seleção de Vários Serviços: Permita a seleção de múltiplos serviços ao agendar um horário.
+ Relatório Financeiro: Gere relatórios financeiros diários, mensais e por período.
+ Armazenamento Local: Dados salvos no banco de dados local do smartphone.
+ Armazenamento Remoto: Dados também salvos na nuvem através de um servidor Heroku utilizando Spring Boot.
+ Autenticação de Usuário: Login via token para acessar o servidor remoto.
 📜 Características
-1: Após autenticar o usuário pela primeira vez faze-lo de forma automática sempre que abrir o aplicativo.
-2: Não permitir sobrepor um agendamento, ou seja, não é possível marcar mais de um agendamento no mesmo horário.
-3: Não permitir excluir um horário caso o mesmo esteja vazio, ou seja, disponível.
-4: Permitir alterar o tempo de duração de um agendamento de forma automática caso o mesmo exceda o limite disponivel na agenda.
-5: Os agendamentos possuem cores distintas, são elas: branco(para agendamentos que já aconteceram), amarelo(para agendamentos qua ainda não aconteceram e que foram feitos pelo PROFISSIONAL), rosa(agendamentos que ainda não aconteceram e que foram feitos pelo CLIENTE).
-cores agenda
+ Autenticação Automática: Após o primeiro login, o usuário será autenticado automaticamente ao abrir o aplicativo.
+ Prevenção de Conflitos de Agendamento: Impede que dois agendamentos sejam marcados no mesmo horário.
+ Agendamentos Válidos: Não é possível excluir um horário que esteja disponível.
+ Ajuste Automático de Tempo de Agendamento: O tempo de duração dos agendamentos será ajustado automaticamente se exceder o tempo disponível na agenda.
+ Cores para Agendamentos: Cada tipo de agendamento é representado por uma cor distinta:
+ Branco: Agendamentos já realizados.
+ Amarelo: Agendamentos futuros feitos pelo profissional.
+ Rosa: Agendamentos futuros feitos pelo cliente.
+☁️ Servidor Cloud
+ Backup de Dados: Backup contínuo dos dados na nuvem.
+ Agendamentos Autônomos: O cliente pode marcar seus próprios horários.
+ Acesso à Rede: Inserir, editar ou excluir dados só é possível com conexão à internet.
+ Funcionamento Offline: Caso a rede esteja indisponível, os dados ficam disponíveis localmente.
+ Autenticação por Token: Autenticação via token com validade de 24 horas, renovado sempre que o app é iniciado.
+🏠 Servidor Local
+ Armazenamento Local: Todos os dados são salvos no smartphone, podendo ser acessados apenas por ele.
+ Sem Conexão Necessária: Permite a inserção, edição, exclusão e visualização de dados sem rede de dados.
+ Cadastro Inicial: O cadastro do usuário e da empresa deve ser feito no servidor antes do uso do aplicativo.
+ Login Automático: O login será feito automaticamente se os dados estiverem salvos localmente.
+📁 Acesso ao Projeto
+ Você pode baixar o APK e instalar no seu emulador ou dispositivo físico para fins de estudo.
 
-SERVIDOR CLOUD ☁️
-1: Backup de dados.
-2: Cliente pode marcar horário de forma autônoma
-3: inserir, editar e excluir dados só é possivel com acesso a rede
-4: caso a rede esteja indisponível é possível visualizar os dados já que os mesmos estão salvos também localmente.
-5: autenticação no servidor via token (expira em 24hrs), renova sempre que o app é inicializado.
-SERVIDOR LOCAL
-1: Os dados são salvos no próprio smartphone, ou seja, só poderão ser acessados através do mesmo.
-2: inserir, editar, excluir e visualizar sem necessidade de uma rede de dados.
-3: é preciso cadastrar o usuario e a empresa no servidor para ter acesso ao aplicativo. Após o cadastro e login, a rede de dados não é mais necessária.
-4: sempre que abrir o app logar de maneira automática caso os dados do usuario ainda estejam salvos localmente.
-📁 Acesso ao projeto
-Você pode baixar o apk e instalar no seu emulador ou no próprio smartphone, é apenas para fins de estudo.
-
-link para download do apk: https://www.mediafire.com/file/35n000ur213bh7h/beauty_style.apk/file
+Link para download do APK: https://www.mediafire.com/file/35n000ur213bh7h/beauty_style.apk/file
 
 Pré-requisitos
-
-Android 8.0(Oreo) Min. SDK 26
-✔️ Técnicas e tecnologias utilizadas
+Android 8.0 (Oreo) ou superior
+SDK mínimo 26
+✔️ Técnicas e Tecnologias Utilizadas
 Java 8
 Android Framework
-Project Struture MVVM
+Estrutura de Projeto MVVM
 Clean Architecture
 Clean Code
-Android Studio (InteliJ IDEA)
-Paradigma de orientação a objetos
+Android Studio (IntelliJ IDEA)
+Paradigma de Orientação a Objetos
 RxJava3
-Room SqlLite
+Room SQLite
 Dagger
 Retrofit
